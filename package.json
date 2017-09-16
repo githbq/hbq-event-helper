@@ -1,7 +1,7 @@
 {
     "name": "hbq-event-helper",
     "version": "0.0.1",
-    "description": "hbq-event-helper",
+    "description": "a evnet handle write by typescript",
     "main": "build/index.js",
     "scripts": {
         "start:build": "npm run tsc && node build",

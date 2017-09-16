@@ -1,18 +1,59 @@
-> 项目描述
+# event-helper
 
-![my love](./logo.png) 
+EventHelper support nodejs and browser environment
 
-## 功能介绍
-1. 简介1 
-2. 简介2   
+![my love](./logo.png)
 
-## 安装
-```
-yarn
+## Installation
+
+    yarn add event-helper
+
+
+# Usage
+```javascript
+//in ts
+import { EventHelper } from 'event-helper'
+//in js
+const { EventHelper } = require('event-helper')
+
+const eventInstance=EventHelper.create()
+
 ```
 
-## 测试   
-```
-npm run test    
-```
- 
+## API
+
+### on(name,action)
+
+    add event
+
+### off(name,action?)
+
+    remove event
+
+### once(name,action)
+
+    add evnet for one time
+
+### emit(name:string|string[])
+
+    emit event by name or name array
+
+### has(name:string)
+
+    check event name exists
+
+### first(name:string,action)
+
+    remove events of name
+    then add action of the same name
+
+### create()
+
+    create a instance of event-helper
+
+----
+
+this all you can use functions,thanks
+
+
+
