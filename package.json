@@ -1,5 +1,5 @@
 {
-    "name": "hbq-event-helper",
+    "name": "event-helper",
     "version": "0.0.1",
     "description": "a evnet handle write by typescript",
     "main": "build/index.js",
