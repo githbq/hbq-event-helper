@@ -1,6 +1,6 @@
 {
     "name": "event-helper",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "a evnet handle write by typescript",
     "main": "build/index.js",
     "scripts": {
