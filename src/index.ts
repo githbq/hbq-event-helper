@@ -6,7 +6,7 @@ class EventHelper {
   constructor() {
     this.handlers = {}
   }
-  create() {
+  static create() {
     return new EventHelper()
   }
   /**
