@@ -1,7 +1,7 @@
 /**
  * 自定义事件  事件名 支持以数组的方式 对应多个事件
  */
-export class EventHelper {
+class EventHelper {
   public handlers: any
   constructor() {
     this.handlers = {}
@@ -126,4 +126,6 @@ export class EventHelper {
   private _checkActions(actions) {
     return actions && Array.isArray(actions)
   }
-}
+} 
+
+export default EventHelper

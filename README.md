@@ -11,10 +11,8 @@ EventHelper support nodejs and browser environment
 
 # Usage
 ```javascript
-//in ts
-import { EventHelper } from 'event-helper'
 //in js
-const { EventHelper } = require('event-helper')
+import EventHelper  from 'event-helper' 
 
 const eventInstance=EventHelper.create()
 

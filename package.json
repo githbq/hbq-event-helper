@@ -1,6 +1,6 @@
 {
     "name": "event-helper",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "a evnet handle write by typescript",
     "main": "build/index.js",
     "scripts": {
@@ -30,7 +30,7 @@
         "hbq-event-helper"
     ],
     "author": "hubiqing",
-    "repository": "https://github.com/githbq/hbq-module-boilerplate.git",
+    "repository": "https://github.com/githbq/hbq-event-helper.git",
     "engines": {"node": ">=7.6"},
     "license": "MIT"
 }
