@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "module": "commonjs",
-        "moduleResolution": "node",
+        "module": "UMD",
+        "moduleResolution": "Classic",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "allowSyntheticDefaultImports": true,
@@ -15,7 +15,9 @@
         "allowUnreachableCode": true,
         "lib": ["es2017"],
         "typeRoots": ["node_modules/@types"],
-        "types": ["mocha", "node", "should"],
+        "types": [ 
+            "node" 
+        ],
         "outDir": "./build",
         "rootDir": "./src"
     },
