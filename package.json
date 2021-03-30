@@ -1,8 +1,9 @@
 {
     "name": "event-helper",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "a evnet handle write by typescript",
-    "main": "build/index.js",
+    "main": "./build/index.js",
+    "module": "./build/esm/index.js",
     "publishConfig": {
         "registry": "https://registry.npmjs.org"
     },
@@ -11,7 +12,7 @@
         "start": "node run",
         "test": "mocha src/**/*.test.ts",
         "clear": "rimraf build",
-        "tsc": "npm run clear && tsc",
+        "tsc": "npm run clear && tsc -p tsconfig.json && tsc -p tsconfig.esm.json",
         "tsc:w": "npm run clear && tsc -w",
         "p": "npm run tsc && npm publish",
         "lint": "tslint \"src/**/*.ts\""

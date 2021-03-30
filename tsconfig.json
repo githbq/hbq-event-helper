@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "module": "UMD",
-        "moduleResolution": "Classic",
+        "target": "es2017",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
         "declaration": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
